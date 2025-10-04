@@ -96,7 +96,7 @@ SELECT branch, payment_method AS preferred_payment_method
 FROM cte
 WHERE rank = 1;
 
--- Q8: Categorize sales into Morning, Afternoon, and Evening shifts
+-- Q8: Categorize sales into Morning, Afternoon, and Evening shift
 SELECT
     branch,
     CASE 
